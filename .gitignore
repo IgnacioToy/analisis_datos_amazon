@@ -1,0 +1,89 @@
+# --- Python ---
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuciones / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Instalador de pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Jupyter Notebooks ---
+# ¡MUY IMPORTANTE! Los checkpoints de Jupyter son basura.
+.ipynb_checkpoints/
+
+# Opcional: Ignora los notebooks con salida. Ver explicación abajo.
+# *.ipynb
+
+# --- Datos y Modelos ---
+# Ignora todos los archivos de datos comunes. Son grandes y a veces privados.
+# Si tienes un dataset pequeño de ejemplo que quieres compartir, guárdalo en una carpeta 'data/sample/' y añade una excepción.
+*.csv
+*.json
+*.xlsx
+*.xls
+*.h5
+*.hdf5
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.sav
+
+# Crea una carpeta 'data/' para tus datos y añádela al gitignore.
+# Si quieres compartir datos de ejemplo, ponlos en 'data/sample/' y no los ignores.
+data/
+
+# --- Entornos Virtuales ---
+# Ignora carpetas de entornos virtuales (venv, conda, etc.)
+env/
+venv/
+ENV/
+.venv/
+.env/
+.conda/
+
+# --- IDEs y Editores de Código ---
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Vim
+*.swp
+*.swo
+
+# --- Sistema Operativo ---
+# Para Linux (aunque muchos de estos son跨平台)
+*~
+
+# Para macOS (por si colaboras con alguien que lo usa)
+.DS_Store
+
+# Para Windows (igual que el anterior)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
